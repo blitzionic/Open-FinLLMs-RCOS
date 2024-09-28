@@ -2,7 +2,7 @@
 
 
 
-Transformers
+Transformers, pg. 46
 
 
 - The source or target are tokenized and passed through word embedding, which can convert words into a sentence and into a matrix, and positional encoding, which makes sure the words are passed in a specific order.
@@ -11,7 +11,7 @@ Transformers
 
 
 
-Query, key, and value
+Query, key, and value, pg. 50
 
 
 - The role of the query vector of a token is to combine with every other key vector to influence the weights for its own output.
@@ -23,7 +23,7 @@ output vector.
 
 
 
-Other attentions
+Other attentions, pg. 51
 
 
 - Multi-head attention have multiple sets of query/key/value weight matrices, each resulting in different query/key/value matrices for the inputs, finally generating output matrices. Each output matrices are concatenated and multiplied with an additional weight matrix to get a single final matrix.
