@@ -31,3 +31,11 @@ Other attentions, pg. 51
 - Masked multi-head attention masks tokens that are not previous target tokens. This is implemented by having a masking weight matrix M that has negative infinity for future tokens and 0 for previous tokens. This can help the decoder learn from the encoder sequence and a particular decoder sequence to predict the next word or character.
 
 - In encoder-decoder multi-head attention, the query vectors from the target sequence (before a given time) and the keys and values from the entire input sequence of the encoder are passed to the self-attention layer in the decoder. This is for the decoder side to learn the attention relationship between the entire source input and the target output at a given time.
+
+
+
+Residuals and Layer Normalization, pg. 53
+
+
+Covariate shift - the gradient dependencies between each layer, or the distribution of input data shifts between the training environment and live environment
+- Layer normalization reduces covariate shift by speeding up the convergence as fewer iterations are needed.
