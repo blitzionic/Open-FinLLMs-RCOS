@@ -52,10 +52,11 @@ a given time.
 Residuals and Layer Normalization, pg. 53
 
 
-Covariate shift - the gradient dependencies between each layer, or the distribution of input 
-data shifts between the training environment and live environment
+Covariate shift - the gradient dependencies between each layer, or the distribution 
+of input data shifts between the training environment and live environment
 
-- Layer normalization reduces covariate shift by speeding up the convergence as fewer iterations are needed.
+- Layer normalization reduces covariate shift by speeding up the convergence as fewer 
+iterations are needed.
 - It works independent of the batch size
 
 
@@ -63,22 +64,25 @@ data shifts between the training environment and live environment
 Positionwise Feed-forward Networks
 
 
-- Decoders and encoders have a connected feed-forward network after the attention layers. 
-For each position, linear transformations with a ReLU activation in between is performed. 
-Each go through the same transformations and are only different vat the layer level.
+- Decoders and encoders have a connected feed-forward network after the attention 
+layers. For each position, linear transformations with a ReLU activation in between is 
+performed. Each go through the same transformations and are only different vat the layer 
+level.
 
 
 
 Encoder, pg. 54
 
 
-- Every layer of multi-head attention attends to the input or the source; attention between 
-inputs and inputs such as: part-of-speech, constituents, dependencies, entity resolution, etc.
+- Every layer of multi-head attention attends to the input or the source; attention 
+between inputs and inputs such as: part-of-speech, constituents, dependencies, entity 
+resolution, etc.
 
 
 
 Decoder
 
 
-- The first layer attends to the target, or attention between masked outputs with themselves. 
-The encoder-decoder attention layer creates attention between the source and the target.
+- The first layer attends to the target, or attention between masked outputs with 
+themselves. The encoder-decoder attention layer creates attention between the source 
+and the target.
