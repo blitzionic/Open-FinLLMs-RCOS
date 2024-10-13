@@ -43,5 +43,4 @@ and general tasks in zero-shot and few-shot settings.
 Results indicate that FinLLaMA-8B outperforms existing models in multiple 
 financial tasks and exhibits strong trading performance. FinLLaVA-8B leads 
 in multimodal financial tasks, even surpassing larger models like GPT-4o in 
-certain areas. The authors plan to publicly release their models and evaluation 
-benchmarks to promote further academic innovation in financial AI.
+certain areas.
