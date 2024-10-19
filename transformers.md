@@ -1,4 +1,4 @@
-# Notes for 'Transformers for Machine Learning'
+# Notes for *Transformers for Machine Learning*
 
 
 ## Transformers, pg. 46
@@ -14,11 +14,11 @@
 
 ## Query, key, and value, pg. 50
 
-- The role of the query vector of a token is to combine with every other key vector to influence the weights for its own output.
+- The role of the *query* vector of a token is to combine with every other key vector to influence the weights for its own output.
 
-- The role of the key vector of a token is to be matched with every other query vector to get similarity with query and to influence the output through query-key product scoring.
+- The role of the *key* vector of a token is to be matched with every other query vector to get similarity with query and to influence the output through query-key product scoring.
 
-- The role of the value vector of a token is extracting information by combining with the output of the query-key scores to get the output vector.
+- The role of the *value* vector of a token is extracting information by combining with the output of the query-key scores to get the output vector.
 
 
 ## Other attentions, pg. 51

@@ -1,4 +1,4 @@
-# Notes for 'Survey of Large Language Models in Finance'
+# Notes for *Survey of Large Language Models in Finance*
 
 
 ## Introduction
