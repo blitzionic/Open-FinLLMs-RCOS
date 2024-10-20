@@ -9,7 +9,9 @@
 ### These articles served to help me learn about transformers, LLMs, and FinLLMs during my learning period, as this is my first year on Open-FinLLMs and I required pre-training before I could operate and experiment with the language models. There are three markdown files each documenting my findings on the texts.
 
 
-# I use Google Sheets to record data for different models that I find by running tasks with the models on a Google Colab script and documenting how well they perform.
+# Data from FinLLMs.
+
+### Additionally, I use Google Sheets to record data for different models that I find by running tasks with the models on a Google Colab script and documenting how well they perform.
 
 ## The models that I use include:
 

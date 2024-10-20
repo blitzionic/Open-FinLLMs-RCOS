@@ -31,4 +31,4 @@ In response, *OpenFinLLMs* were introduced, a series of **open** financial LLMs 
 
 - **Extensive Evaluations:** Comprehensive assessments across various financial and general tasks in zero-shot and few-shot settings.
 
-- Results indicate that *FinLLaMA-8B* outperforms existing models in multiple financial tasks and exhibits strong trading performance. *FinLLaVA-8B* leads in multimodal financial tasks, even surpassing larger models like *GPT-4o* in certain areas.
+Results indicate that *FinLLaMA-8B* outperforms existing models in multiple financial tasks and exhibits strong trading performance. *FinLLaVA-8B* leads in multimodal financial tasks, even surpassing larger models like *GPT-4o* in certain areas.
