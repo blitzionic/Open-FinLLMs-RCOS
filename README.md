@@ -15,4 +15,7 @@
 
 ## The models that I use include:
 
-- Meta Llama 3.2 1B
+- Llama 3.2 3B Instruct
+- Qwen2.5 7B
+- Qwen2.5 7B Instruct
+- Mistral 7B Instruct v0.3
