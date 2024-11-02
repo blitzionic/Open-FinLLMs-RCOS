@@ -11,7 +11,16 @@
 
 # Data from FinLLMs.
 
-### Additionally, I use Google Sheets to record data for different models that I find by running tasks with the models on a Google Colab script and documenting how well they perform.
+### Additionally, I use Google Sheets to record data for different models that I find by running tasks with the models on a Google Colab evaluation script and documenting how well they perform. Each model takes around 2 hours to collect responses from the 42 tasks given. Most of the work I commit will most likely be benchmarking, which is shown in the sheets files provided.
+
+### For each model, I use Python to evaluate the efficiency. An example of the code I use is below:
+
+!python PIXIU/src/eval.py \
+    --model "hf-causal-vllm" \
+    --model_args "pretrained=meta-llama/Llama-3.2-1B-Instruct,peft=meta-llama/Llama-3.2-1B-Instruct,tokenizer=meta-llama/Llama-3.2-1B-Instruct,dtype=float16,use_fast=False,max_gen_toks=25" \
+    --tasks "flare_cra_travelinsurace" \
+    --batch_size 20000 \
+    --num_fewshot 0
 
 ## The models that I use include:
 
@@ -19,3 +28,5 @@
 - Qwen2.5 7B
 - Qwen2.5 7B Instruct
 - Mistral 7B Instruct v0.3
+
+### For each model's data, I downloaded it separately into tab separated value files (.tsv) and added them to the repository, along with an overall Google Sheet downloaded as a Excel sheet file (.xlsx).
