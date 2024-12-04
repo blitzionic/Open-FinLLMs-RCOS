@@ -11,7 +11,7 @@
 
 # Data from FinLLMs.
 
-### Additionally, I use Google Sheets to record data for different models that I find by running tasks with the models on a Google Colab evaluation script and documenting how well they perform. Each model takes around 2 hours to collect responses from the 42 tasks given. Most of the work I commit will most likely be benchmarking, which is shown in the sheets files provided.
+### Additionally, I use Google Sheets to record data for different models that I find by running tasks with the models on a Google Colab evaluation script and documenting how well they perform. Each model takes 1-2 hours to collect responses from the 42 tasks given. Most of the work I commit will most likely be benchmarking, which is shown in the sheets files provided.
 
 ### For each model, I use Python to evaluate the efficiency. An example of the code I use is below:
 
@@ -28,5 +28,11 @@
 - Qwen2.5 7B
 - Qwen2.5 7B Instruct
 - Mistral 7B Instruct v0.3
+- Marco-o1
+- Falcon 7B instruct
+- Hermes 3 - Llama-3.1 8B
+- StarCoder2 7B
+- Code Llama 7B Instruct
+- GPT-Neo 2.7B
 
 ### For each model's data, I downloaded it separately into tab separated value files (.tsv) and added them to the repository, along with an overall Google Sheet downloaded as a Excel sheet file (.xlsx).
