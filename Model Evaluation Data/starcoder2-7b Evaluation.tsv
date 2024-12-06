@@ -1,0 +1,83 @@
+bigcode/starcoder2-7b		bigcode/starcoder2-7b
+		
+NER		entity_f1: 0.0644
+		
+FINER-ORD		entity_f1: 0.0172; f1: 0.0343
+		
+FinRED		precision: 0.0038; recall: 0.0076; f1: 0.0050
+		
+SC		acc: 0.7813 ± 0.0045; missing: 0.0046 ± 0.0007; f1: 0.8286; macro_f1: 0.5351; mcc: 0.1268
+		
+CD		entity_f1: 0.000; f1: 0.002
+		
+FNXL		entity_f1: 0; f1: 0
+		
+FSRL		entity_f1: 0.0000; f1: 0.0086
+		
+FPB		acc: 0.5041 ± 0.0161; missing: 0.0052 ± 0.0023; f1: 0.4614; macro_f1: 0.5139; mcc: 0.3860
+		
+FiQA-SA		acc: 0.4000 ± 0.032; missing: 0.0000 ± 0.000; f1: 0.3169; macro_f1: 0.2545; mcc: 0.1487
+		
+TSA		rmse: 0.3693; missing: 0.0000 ± 0
+		
+Headlines		avg_f1: 0.5995
+		
+FOMC		acc: 0.3448 ± 0.0214; missing: 0.0081 ± 0.0040; f1: 0.3466; macro_f1: 0.3236; mcc: 0.0124
+		
+FinArg-ACC		acc: 0.0867 ± 0.009; missing: 0.8328 ± 0.012; f1: 0.1351; macro_f1: 0.1406; mcc: 0.0166
+		
+FinArg-ARC		acc: 0.3913 ± 0.0186; missing: 0.0029 ± 0.0020; f1: 0.4620; macro_f1: 0.2636; mcc: 0.0354
+		
+MultiFin		acc: 0.3663 ± 0.0206; missing: 0.0201 ± 0.0060; f1: 0.3183; macro_f1: 0.2985; mcc: 0.2347
+		
+MA		acc:  0.4980 ± 0.0224; missing: 0.0000 ± 0.0000; f1: 0.3525; macro_f1: 0.3525; mcc: -0.0126
+		
+MLESG		acc: 0.1533 ± 0.0208; missing: 0.4933 ± 0.0289; f1: 0.1366; macro_f1: 0.0926; mcc: 0.1577
+		
+FinQA		acc: 0 ± 0
+		
+TATQA		acc: 0.0006 ± 0.0006
+		
+Regulations		
+		
+ConvFinQA		acc: 0 ± 0
+		
+EDTSUM		Can't get BARTScore; unpickling error
+		
+ECTSUM		Can't get BARTScore; unpickling error
+		
+BigData22		acc: 0.5306 ± 0.013; missing: 0.0000 ± 0.000; f1: 0.4911; macro_f1: 0.4729; mcc: 0.0035
+		
+ACL18		acc:  0.5013 ± 0.0082; missing: 0.0000 ± 0.0000; f1: 0.4881; macro_f1: 0.4858; mcc: -0.0059
+		
+CIKM18		acc:  0.4829 ± 0.0148; missing: 0.0000 ± 0.0000; f1: 0.4851; macro_f1: 0.4824; mcc: -0.0185
+		
+German		acc: 0.6600 ± 0.0336; missing: 0.0000 ± 0.0000; f1: 0.5248; macro_f1: 0.3976; mcc: 0.0000
+		
+Australian		acc: 0.4317 ± 0.0422; missing: 0.0000 ± 0.0000; f1: 0.2603; macro_f1: 0.3015; mcc: 0.0000
+		
+LendingClub		acc: 0.8082 ± 0.0076; missing: 0.0000 ± 0.0000; f1: 0.7225; macro_f1: 0.4470; mcc: 0.0000
+		
+ccf		acc:  0.8591 ± 0.0073; missing: 0.0000 ± 0.0000; f1: 0.9230; macro_f1: 0.4621; mcc: -0.0146
+		
+ccfraud		acc: 0.0586 ± 0.0051; missing: 0.0000 ± 0.0000; f1: 0.0065; macro_f1: 0.0554; mcc: 0.0000
+		
+polish		acc: 0.9488 ± 0.0053; missing: 0.0000 ± 0.0000; f1: 0.9238; macro_f1: 0.4869; mcc: 0.0000
+		
+taiwan		acc: 0.9678 ± 0.0048; missing: 0.0000 ± 0.0000; f1: 0.9519; macro_f1: 0.4918; mcc: 0.0000
+		
+portoseguro		acc: 0.9698 ± 0.0035; missing: 0.0000 ± 0.0000; f1: 0.9549; macro_f1: 0.4923; mcc: 0.0000
+		
+travelinsurance		acc: 0.0150 ± 0.0024; missing: 0.0000 ± 0.0000; f1: 0.0004; macro_f1: 0.0148; mcc: 0.0000
+		
+ES_FinanceES		acc:  0.1069 ± 0.0039; missing: 0.7596 ± 0.0054; f1: 0.1577; macro_f1: 0.1150; mcc: -0.0068
+		
+ES_Multifin		acc: 0.1130 ± 0.0209; missing: 0.7130 ± 0.0299; f1: 0.1603; macro_f1: 0.1635; mcc: 0.0958
+		
+ES_EFP		acc: 0.2703 ± 0.074; missing: 0.0000 ± 0.000; f1: 0.1150; macro_f1: 0.1418; mcc: 0.0000
+		
+ES_EFPA		acc: 0.2588 ± 0.0291; missing: 0.0000 ± 0.0000; f1: 0.1129; macro_f1: 0.1112; mcc: 0.0293
+		
+ES_FNS		Can't get BARTScore; unpickling error
+		
+ES_TSA		acc: 0.0172 ± 0.0021; missing: 0.9700 ± 0.0028; f1: 0.0335; macro_f1: 0.0237; mcc: 0.0163

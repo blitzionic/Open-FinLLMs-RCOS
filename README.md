@@ -33,6 +33,6 @@
 - Hermes 3 - Llama-3.1 8B
 - StarCoder2 7B
 - Code Llama 7B Instruct
-- GPT-Neo 2.7B
+- EuroLLM 9B Instruct
 
 ### For each model's data, I downloaded it separately into tab separated value files (.tsv) and added them to the repository, along with an overall Google Sheet downloaded as a Excel sheet file (.xlsx).
